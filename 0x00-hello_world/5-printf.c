@@ -6,7 +6,7 @@
  *
  * "with proper grammar, but the outcome is a piece of art,".
  *
- * return: Always 0 and program ends
+ * Return: Always 0 (Successful execution)
  */
 int main(void)
 {
