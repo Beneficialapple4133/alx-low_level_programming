@@ -1,0 +1,2 @@
+#!/bin/ba
+g++ -S -masm=intel $CFILE
