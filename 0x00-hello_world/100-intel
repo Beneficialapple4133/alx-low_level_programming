@@ -1,2 +1,2 @@
-#!/bin/ba
+#!/bin/bash
 g++ -S -masm=intel $CFILE
