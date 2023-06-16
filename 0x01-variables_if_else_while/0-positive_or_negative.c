@@ -2,12 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *Description: Generate random number
-
- * main: Start of the program
- *
- * Description: Generate random number
- *
+ * main: Start of the program *
  * return: 0; success and program terminates
  **/
 
