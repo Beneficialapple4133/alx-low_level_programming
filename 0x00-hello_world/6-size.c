@@ -8,7 +8,7 @@
  *
  * Return: Always 0 hence a successful execution
  */
-int main(void)
+int main()
 {
 	printf("Size of char: %ld byte(s)\n", sizeof(char));
 	printf("Size of int : %ld byte(s)\n", sizeof(int));
