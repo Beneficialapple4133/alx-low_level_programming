@@ -2,12 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main : Start of the program
+ *Description: Generate random number
+
+ * main: Start of the program
  *
- * Description : Generate random number
+ * Description: Generate random number
  *
- * return : 0, success and program terminates
- */
+ * return: 0; success and program terminates
+ **/
+
 int main(void)
 {
 	int n;
