@@ -8,12 +8,13 @@
  *
  * Return: Always 0 hence a successful execution
  */
-int main()
+int main(voidi)
 {
-	printf("Size of char: %ld byte(s)\n", sizeof(char));
-	printf("Size of int : %ld byte(s)\n", sizeof(int));
-	printf("Size of long int: %ld byte(s)\n", sizeof(long int));
-	printf("Size of long long int: %ld byte(s)\n", sizeof(long long int));
-	printf("Size of float: %ld byte(s)\n", sizeof(float));
+	fprintf(stdout, "Size of char: %zu byte(s)\n", sizeof(char));
+	fprintf(stdout, "Size of int : %zu byte(s)\n", sizeof(int));
+	fprintf(stdout, "Size of long int: %zu byte(s)\n", sizeof(long int));
+	fprintf(stdout, "Size of long long int: %zu byte(s)\n", sizeof(long long int));
+	fprintf(stdout, "Size of float: %zu byte(s)\n", sizeof(float));
+	fprintf(stderr,"Error: Failed to retreive size of types.\n");
 	return (0);
 }
