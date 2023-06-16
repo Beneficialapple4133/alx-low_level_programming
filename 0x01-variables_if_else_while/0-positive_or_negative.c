@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main - Start of the program
+/* main : Start of the program
  *
- * Description: Generate random number
+ * Description : Generate random number
  *
  * return : 0, success and program terminates
  */
@@ -19,12 +19,11 @@ int main(void)
 	{
 		printf("is positive");
 	} else if (n == 0)
-       	{
+	{
 		printf("is zero");
 	} else
 	{
 		printf("is negative");
-	}
-	printf("\n");
+	}	printf("\n");
 	return (0);
 }
