@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main : Start of the program
+/**
+ * main : Start of the program
  *
  * Description : Generate random number
  *
