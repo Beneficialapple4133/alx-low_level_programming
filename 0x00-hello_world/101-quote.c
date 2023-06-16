@@ -1,10 +1,12 @@
 #include <unistd.h>
 /**
- * Main - Start of the program
+ * main - Start of the program
  *
  * Description - Program prints 
- * and that piece of art is useful"
+ * and that piece of art is useful
  * by Dora Korpar
+ *
+ * Return 1- program ends abnormally
  */
 int main(void)
 {
