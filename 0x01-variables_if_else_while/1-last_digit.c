@@ -17,14 +17,38 @@ int main(void)
 	printf("Last digit of 98 is %d and is ", n % 10);
 	if ((n % 10) > 5)
 	{
-		printf("Last digit of %d is greater than 5\n");
+		printf("greater than 5\n");
 	} else if ((n % 10) == 0)
 	{
 		printf("0\n");
 	} else
 	{
-		printf("Last digit of %d is less than 6 and not 0\n");
+		printf("less than 6 and not 0\n");
 	}
+	n=980;
+	printf("Last digit of 980 is %d and is ", n % 10);
+        if ((n % 10) > 5)
+        {
+                printf("greater than 5\n");
+        } else if ((n % 10) == 0)
+        {
+                printf("0\n");
+        } else
+        {
+                printf("less than 6 and not 0\n");
+        }
+	n= -98;
+	printf("Last digit of -98 is %d and is ", n % 10);
+        if ((n % 10) > 5)
+        {
+                printf("greater than 5\n");
+        } else if ((n % 10) == 0)
+        {
+                printf("0\n");
+        } else
+        {
+                printf("less than 6 and not 0\n");
+        }
 
 	return (0);
 }
