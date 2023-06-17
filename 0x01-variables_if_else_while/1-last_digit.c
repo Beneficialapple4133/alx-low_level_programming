@@ -15,19 +15,12 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	int lastDigit = n % 10;
 	/* your code goes there */
-	printf("Last digit of %d is %d and is ", n, lastDigit);
-	if (lastDigit > 5)
-	{
-		printf("greater than 5\n");
-	}
-	else if (lastDigit == 0)
-	{
-		printf("0\n");
-	}
-	else
-	{
-		printf("less than 6 and not 0\n");
-	}
+if (n > 0)
+printf("%i is positive\n", n);
+else if (n == 0)
+printf("%i is zero\n", n);
+else
+	printf("%i is negative\n", n);
 
 	return (0);
 }
