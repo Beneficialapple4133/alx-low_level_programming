@@ -7,13 +7,13 @@
 
 int main(void)
 {
-	const char *numbers = "0123456789";
+	int i = 0;
 
-	for (int i = 0; i < 10; i++)
+	while (i < 10)
 	{
-		putchar(numbers[i]);
-		putchar('\n');
+		putchar(i + '0');
+		i++;
 	}
-
+	putchar('\n');
 	return (0);
 }
